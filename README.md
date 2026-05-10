@@ -3,7 +3,7 @@
 # 🚀 嗨，我是 Silas Luo
 **从底层硅基逻辑到具身智能感知的“硬核”全栈开发者**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Undergrad+@+SUT+(Class+of+2024);Robocon+National+1st+Prize+Winner;3D+SLAM+%26+ROS2+Developer;Embedded+Systems+%26+Edge+AI+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Undergrad+@+SUT+(Class+of+2024);Robocon+National+1st+Prize+Winner;3D+SLAM+(FAST-LIO2/Point-LIO);Embedded+Systems+%26+Edge+AI+Enthusiast)](https://git.io/typing-svg)
 
 </div>
 
@@ -18,24 +18,24 @@
 - 🎓 **当前状态**：沈阳工业大学计算机科学与技术专业在读
 - 🏆 **核心荣誉**：Robocon 全国大学生机器人大赛**国赛一等奖** | 蓝桥杯 C/C++ **省赛一等奖**
 - 📜 **专业认证**：CCF 生成式人工智能系统应用能力认证 (LMCC) 一级 | IITC 工业互联网开发工程师
-- 🔭 **目前聚焦**：FAST-LIO2/Point-LIO 算法的跨平台工程化落地，边缘设备（Jetson/RK3588）的异构加速部署。
+- 🔭 **目前聚焦**：FAST-LIO2 / Point-LIO 算法的跨平台工程化落地，边缘设备（Jetson/RK3588）的异构加速部署。
 
 ---
 
 ### 🛠️ 核心武器库 (Tech Arsenal)
 
-我习惯根据不同的系统层级选择最合适的工具：
-
 **🤖 算法与中间件 (Perception & Middleware)**
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![SLAM](https://img.shields.io/badge/3D_SLAM-FAST--LIO2-FF6F00?style=for-the-badge)
+![FAST-LIO2](https://img.shields.io/badge/SLAM-FAST--LIO2-FF6F00?style=for-the-badge)
+![Point-LIO](https://img.shields.io/badge/SLAM-Point--LIO-FF4500?style=for-the-badge)
 
 **⚙️ 边缘计算与运维 (Edge Computing & DevOps)**
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 **🎛️ 嵌入式与硬件 (Embedded & Hardware)**
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
@@ -65,17 +65,14 @@
 
 ---
 
-### 📊 极客数据 (GitHub Activity)
+### 🐍 极客数据 (GitHub Activity)
 
 <div align="center">
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ChineseLJH&theme=tokyonight&hide_border=true&title_color=00BFFF&background=0D1117" alt="GitHub Streak" />
-  
-  <br/>
-
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChineseLJH&theme=tokyonight" alt="GitHub Stats Details" width="48%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChineseLJH&theme=tokyonight" alt="Language Breakdown" width="48%"/>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 ---
