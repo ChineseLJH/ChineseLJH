@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🚀 嗨，我是 Silas Luo
+# 👋 嗨，我是 Silas Luo
 **Robotics Perception / Embedded Systems / Edge Computing**
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Undergrad+@+SUT+(Class+of+2024);Robocon+National+1st+Prize+Winner;3D+SLAM+(FAST-LIO2/Point-LIO);Embedded+Systems+%26+Edge+AI+Enthusiast)](https://git.io/typing-svg)
@@ -69,7 +69,7 @@
 
 ---
 
-### 🐍 极客数据 (GitHub Activity)
+### 🐍 相关数据 (GitHub Activity)
 
 <div align="center">
   <picture>
