@@ -69,6 +69,18 @@
 
 ---
 
+### 🐍 极客数据 (GitHub Activity)
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
 <div align="center">
   <i>“人生在勤，不索何获。”</i>
 </div>
