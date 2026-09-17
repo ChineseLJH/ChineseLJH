@@ -3,7 +3,7 @@
 # 👋 嗨，我是 Silas Luo
 **Robotics Perception / Embedded Systems / Edge Computing**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Undergrad+@+SUT+(Class+of+2024);Robocon+National+1st+Prize+Winner;3D+SLAM+(FAST-LIO2/Point-LIO);Embedded+Systems+%26+Edge+AI+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Undergrad+@+SUT+(Class+of+2023);Robocon+National+1st+Prize+Winner;3D+SLAM+(FAST-LIO2/Point-LIO);Embedded+Systems+%26+Edge+AI+Enthusiast)](https://git.io/typing-svg)
 
 </div>
 
@@ -11,7 +11,7 @@
 
 ### 💡 关于我 (About Me)
 
-我是沈阳工业大学（SUT）计算机科学与技术专业（24级）的在读本科生。我对技术的热爱不局限于纯粹的代码逻辑，更在于**让代码与物理世界产生交互**。
+我是沈阳工业大学（SUT）计算机科学与技术专业（23级）的在读本科生。我对技术的热爱不局限于纯粹的代码逻辑，更在于**让代码与物理世界产生交互**。
 
 我的技术栈贯穿了机器人的完整神经系统：从基于 STM32/ESP32 与立创EDA 的底层硬件控制，到基于 Linux/Docker 的边缘计算架构，再到基于 ROS2 的 3D 激光 SLAM 算法部署。我致力于在**具身智能（Embodied AI）**与**异构边缘计算**领域深耕。
 
