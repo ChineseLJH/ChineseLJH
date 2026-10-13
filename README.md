@@ -1,88 +1,41 @@
-<div align="center">
-  
-# 👋 嗨，我是 Silas Luo
-**Robotics Perception / Embedded Systems / Edge Computing**
+# Hi，我是 Silas Luo
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Computer+Science+Undergrad+@+SUT+(Class+of+2024);Robocon+National+1st+Prize+Winner;3D+SLAM+(FAST-LIO2/Point-LIO);Embedded+Systems+%26+Edge+AI+Enthusiast)](https://git.io/typing-svg)
+沈阳工业大学计算机科学与技术专业，2024 级本科生。
 
-</div>
+主要关注机器人系统软件和嵌入式 Linux 开发，参与过机器人比赛中的激光定位系统部署、遥控系统开发和软硬件联调。
 
----
+## 技术与工具
 
-### 💡 关于我 (About Me)
+- **编程与通信**：具备 C/C++ 与 Python 项目开发经验，做过 Qt 界面、UDP 通信和串口协议开发。
+- **Linux 与机器人**：Ubuntu、Docker、ROS 2，以及 Jetson 上的定位系统部署与联调。
+- **嵌入式**：STM32、ESP32，接触过 UART、I2C、SPI 和 RTOS。
+- **开发工具**：Git、CMake、GCC；也做过 Nginx 与 SSL 证书配置。
 
-我是沈阳工业大学（SUT）计算机科学与技术专业（24级）的在读本科生。我对技术的热爱不局限于纯粹的代码逻辑，更在于**让代码与物理世界产生交互**。
+## 项目
 
-我的技术栈贯穿了机器人的完整神经系统：从基于 STM32/ESP32 与立创EDA 的底层硬件控制，到基于 Linux/Docker 的边缘计算架构，再到基于 ROS2 的 3D 激光 SLAM 算法部署。我致力于在**具身智能（Embodied AI）**与**异构边缘计算**领域深耕。
+### [四足机器人激光定位系统](https://github.com/ChineseLJH/MID360_QUAD_SLAM)
 
-- 🎓 **当前状态**：沈阳工业大学计算机科学与技术专业在读
-- 🏆 **核心荣誉**：Robocon 全国大学生机器人大赛**国赛一等奖** | 蓝桥杯 C/C++ **B组省赛一等奖**
-- 📜 **专业认证**：CCF 生成式人工智能系统应用能力认证 (LMCC) 一级 | IITC 工业互联网开发工程师
-- 🔭 **目前聚焦**：FAST-LIO2 / Point-LIO 算法的跨平台工程化落地，边缘设备（Jetson）的异构加速部署。
+面向四足仿生障碍赛与任务赛，独立负责 Livox MID-360 雷达系统的部署、适配与调试。
 
----
+- 集成 Point-LIO 前端里程计与预建地图定位模块，适配 FAST-LIO2 / Point-LIO 的输出话题。
+- 编写 ROS 2 位姿转串口节点，向电控板输出位置与偏航角，实现单位转换、角度边界处理、CRC-8 校验与串口自动重连。
+- 使用 Docker 管理运行环境，编写启动与录包脚本，支持端侧采包、本地离线建图和地图回传后的定位。
 
-### 🛠️ 核心武器库 (Tech Stack)
+任务赛的视觉部分，我提出了 CUDA 图像处理加速方案并参与落地联调，也编写了视觉系统的串口重连功能。
 
-**🤖 算法与中间件 (Perception & Middleware)**
-![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![FAST-LIO2](https://img.shields.io/badge/SLAM-FAST--LIO2-FF6F00?style=for-the-badge)
-![Point-LIO](https://img.shields.io/badge/SLAM-Point--LIO-FF4500?style=for-the-badge)
+### 机器人遥控系统
 
-**⚙️ 边缘计算与运维 (Edge Computing & DevOps)**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+独立编写 Qt 遥控界面、ESP32 程序、UDP 通信和应用层协议，打通 Android 上位机 → UDP → ESP32 串口透传 → 电控板的控制链路。
 
-**🎛️ 嵌入式与硬件 (Embedded & Hardware)**
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![EasyEDA](https://img.shields.io/badge/PCB_Design-立创EDA-0055FF?style=for-the-badge)
+- 针对赛场遥控延迟与抖动，将 TCP 通信迁移至 UDP，并调整 Wi-Fi 帧聚合配置。
+- 设计带 CRC 校验的指令格式，按待机和运动状态调整发送频率。
 
-**💻 开发环境与工具 (IDE & Environment)**
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+### [SUT-MEIC 战队官网](https://sut-meic.com)
 
----
+负责官网的 Linux 部署、Nginx 反向代理与 SSL 证书配置，同时管理战队的 GitHub 组织和代码库。
 
-### 📂 核心工程矩阵 (Engineering Matrix)
+## 竞赛经历
 
-#### 🧠 1. 传感器与算法中间层 (Private / In-House Project)
-* **LIVOX MID-360 3D SLAM 部署架构 (闭源开发中)**:
-  * 针对机器狗等具身智能场景设计的 3D 激光 SLAM 部署方案。
-  * 实现了 **FAST-LIO2** 与 **Point-LIO** 在 Jetson 等边缘计算节点上的 Docker 化一键部署。
-  * 独立开发重定位节点 (LocalizerNode)，针对高速运动优化卡尔曼滤波与 IMU 饱和参数，支持高达 10Hz+ 的稳定定位。
-  * 深入底层实现支持热插拔的串口自动重连机制与 CRC-8 数据校验，提升系统鲁棒性。
-
-#### 🌐 2. Web 全栈开发与运维 (Live Production)
-* **[沈阳工业大学 MEIC 战队官网 ](https://sut-meic.com)**:
-  * 开发并部署的官方网站，作为战队的对外技术展示与招新门户。
-  * 从域名解析、Nginx 服务器配置到 SSL 证书部署，完成了从零到一的 Web 全栈开发与云端运维链路落地。
-
-#### ⚡ 3. 嵌入式底层“神经末梢” (Open Source)
-* **[MySTM32](https://github.com/ChineseLJH/MySTM32)**: 记录底层硬件驱动、RTOS 及传感器控制的工程积累，是机器人底层运动控制的基石。
-* **[MyESP32](https://github.com/ChineseLJH/MyESP32)**: 针对 AIoT 场景的工程集合，侧重于轻量级设备的 Wi-Fi/Bluetooth 通信及边缘数据流转。
-* **[Qt-Projects](https://github.com/ChineseLJH/Qt-Projects)**: 基于 Qt 框架的上位机与 GUI 开发库，用于搭建可视化数据交互与调试控制台。
-
----
-
-### 🐍 相关数据 (GitHub Activity)
-
-<!-- <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ChineseLJH/ChineseLJH/output/github-contribution-grid-snake.svg">
-  </picture>
-</div> -->
-
-[![Top Langs](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs?username=ChineseLJH&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-<div align="center">
-  <i>“人生在勤，不索何获。”</i>
-</div>
+- **2026 ROBOCON**：5 项全国一等奖、1 项全国二等奖。
+- **2025 ROBOCON 排球挑战赛**：全国一等奖。
+- **2025 蓝桥杯 C/C++ 大学 B 组**：辽宁赛区一等奖。
